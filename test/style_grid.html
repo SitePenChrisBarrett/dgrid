@@ -22,23 +22,18 @@
 			#grid {
 				height: 20em;
 			}
-			#grid .column-order {
-				width: 7%;
-			}
-			#grid .column-name {
-				width: 18%;
-			}
-			.dgrid {
-				height: auto;
-				background: #eee;
-			}
-			.dgrid .dgrid-scroller {
-				overflow-y: hidden;
-			}
+            #grid .dgrid-scroller {
+                position: relative;
+                overflow-y: hidden;
+            }
+            #grid .dgrid-header-scroll {
+                display: none;
+            }
+            #grid .dgrid-header {
+                right: 0;
+            }
 
-			.dgrid-header-scroll {
-				display:none;
-			}
+			
 		</style>
 		<script type="text/javascript" src="../../dojo/dojo.js" 
 			data-dojo-config="async: true"></script>
